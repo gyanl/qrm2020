@@ -5,6 +5,9 @@ body{
   letter-spacing: -0.3px;
   line-height: 28px;
   margin: 0;
+  background-image: url("old/img/bg2.jpg") !important;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
 }
 
 .no-decoration{

@@ -8,29 +8,7 @@
 
 <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif:600&display=swap" rel="stylesheet">
-<script src="js/jquery.min.js"></script>
-<script>
 
-		$(function() {
-			var pull 		= $('#pull');
-				menu 		= $('nav ul');
-				menuHeight	= menu.height();
-
-			$(pull).on('click', function(e) {
-				e.preventDefault();
-				menu.slideToggle();
-			});
-
-			$(window).resize(function(){
-        		var w = $(window).width();
-        		if(w > 320 && menu.is(':hidden')) {
-        			menu.removeAttr('style');
-        		}
-    		});
-		});
-	</script>
-
-</script>
 </head>
 
 <body>
@@ -51,7 +29,7 @@
 			<div class="title">
 			</div> -->
 
-<div class="section-top bg-dark">
+<div class="bg-dark section-top">
 	<h1 class="text-white">Introduction to Quantitative Research Methods in HCI 2020</h1>
 	<p class="text-light">IDC School of Design, IIT Bombay announces a 4-day course on quantitative research methods in human-computer interaction (HCI) from February 25 to 28, 2020.
 	<p class="text-light">The course is an exposure to quantitative methods in HCI research with a particular focus on those who are new to research.<br><br></p>
