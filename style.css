@@ -7,19 +7,20 @@ body{
   margin: 0;
 }
 
-.section-1{
+.event-details{
+  padding: 140px 40px 40px 40px;
+  position: absolute;
+  right: 20%;
+  top: 0;
+  background: #152125;
+}
+
+.section-top{
   padding: 4% 50% 4% 20%;
   margin: auto;
-  background: #1D2D32;
 }
 
-.section-2{
-  padding: 4% 20% 4% 20%;
-  margin: auto;
-  background: #BAD5D6;
-}
-
-.section-3{
+.section{
   padding: 4% 20% 4% 20%;
   margin: auto;
 }
@@ -46,11 +47,16 @@ tr:nth-child(odd) {
 }
 
 .nav li{
-display: inline-block; 
+display: inline-block;
 }
 
 a{
   text-decoration: none;
+  color: #02877E;
+}
+
+a:hover{
+  text-decoration: underline;
 }
 
 h1{
@@ -61,8 +67,12 @@ h1{
   line-height: 44px;
 }
 
+ul{
+  padding-inline-start: 2px;
+}
+
 li{
-  padding-bottom: 8px;
+  padding-bottom: 16px;
 }
 
 .text-white{
@@ -79,6 +89,27 @@ li{
 
 .text-dark{
   color: #1D2D32;
+}
+
+.bg-mint{
+  background: #BAD5D6;
+}
+
+.bg-dark{
+  background: #1D2D32;
+}
+
+.bg-darker{
+  background: #152125;
+}
+
+.capsbold{
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 10px;
+  margin-bottom: 8px;
+  margin-top: 32px;
 }
 
 .button{
@@ -101,4 +132,35 @@ li{
 .button-secondary{
   color: #D1D5D6;
   background: #344246;
+}
+
+@media only screen and (max-width: 1300px) {
+
+  .section-top{
+    padding: 4% 20% 4% 20%;
+  }
+
+  .event-details{
+    padding: 0px 40px 20px 0px;
+    margin-bottom: 28px;
+    margin-top: -20px;
+    border-radius: 4px;
+    position: relative;
+    right: auto;
+    top: auto;
+    background: none;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+  .section-top{
+    padding: 24px 28px 24px 28px;
+  }
+
+  .section{
+    padding: 24px 28px 24px 28px;
+  }
+
 }
