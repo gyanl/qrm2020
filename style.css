@@ -104,7 +104,8 @@ h1{
 }
 
 ul{
-  padding-inline-start: 2px;
+  -webkit-padding-start: 2px;
+          padding-inline-start: 2px;
 }
 
 li{
